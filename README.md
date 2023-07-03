@@ -4,6 +4,7 @@
 The Advanced Microcontroller Bus Architecture (AMBA) specification defines an on-chip communications standard for designing high-performance embedded 
 microcontrollers. 
 Three distinct buses are defined within the AMBA specification:
+
 • the Advanced High-performance Bus (AHB)
 • the Advanced System Bus (ASB)
 • the Advanced Peripheral Bus (APB).
