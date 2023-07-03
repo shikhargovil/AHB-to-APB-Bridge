@@ -1,4 +1,6 @@
-# AMBA specification
+# AHB-to-APB-Bridge
+
+## AMBA specification
 The Advanced Microcontroller Bus Architecture (AMBA) specification defines an on-chip communications standard for designing high-performance embedded 
 microcontrollers. 
 Three distinct buses are defined within the AMBA specification: 
