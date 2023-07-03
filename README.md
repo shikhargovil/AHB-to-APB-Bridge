@@ -10,19 +10,19 @@ Three distinct buses are defined within the AMBA specification:
 A test methodology is included with the AMBA specification which provides an infrastructure for modular macrocell test and diagnostic access.
 
 
-#### 1 Advanced High-performance Bus (AHB)
+#### 1) Advanced High-performance Bus (AHB)
 The AMBA AHB is for high-performance, high clock frequency system modules. The AHB acts as the high-performance system backbone bus. AHB supports the 
 efficient connection of processors, on-chip memories and off-chip external memory interfaces with low-power peripheral macrocell functions. AHB is also specified to ensure ease of use in an efficient design flow using synthesis and automated test 
 techniques.
 
-#### 2 Advanced System Bus (ASB)
+#### 2) Advanced System Bus (ASB)
 The AMBA ASB is for high-performance system modules.
 AMBA ASB is an alternative system bus suitable for use where the high-performance 
 features of AHB are not required. ASB also supports the efficient connection of 
 processors, on-chip memories and off-chip external memory interfaces with low-power 
 peripheral macrocell functions. 
 
-#### 3 Advanced Peripheral Bus (APB)
+#### 3) Advanced Peripheral Bus (APB)
 The AMBA APB is for low-power peripherals.AMBA APB is optimized for minimal power consumption and reduced interface 
 complexity to support peripheral functions. APB can be used in conjunction with either version of the system bus
 
@@ -38,5 +38,18 @@ Block Diagram of Bridge module
 
 The main section of this module are:
 1) AHB slave bus interface
-2) APB transfer state machine
+2) APB transfer state machine    
 3) APB output signal generation
+
+### Function and operation of module
+The APB bridge resquest transaction requests from the currently granted AHB master. The  AHB transaction are then converted into APB transactions. The state machine controls: 
+1) The AHB  transaction with HREADYout signal
+2) generation  of all APB output  signals
+
+The indivdual PSELx signals are decoded from HADDR, using the state machine to enable the outputs while the APB transactions is being performed.
+
+If an undefined system is reached, operation of the system will work as normal, but no peripherals are selected.
+
+![image](https://github.com/shikhargovil/AHB-to-APB-Bridge/assets/78219141/db6e415d-3d88-4ecb-a429-8ad25cf0c82f)
+
+State machine of AHB to APB  interface
