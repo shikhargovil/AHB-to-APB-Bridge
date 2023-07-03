@@ -69,6 +69,8 @@ To design and simulate a synthesizable AHB to APB bridge interface using Verilog
 5) Generates a timing strobe, PENABLE, for the transfer
 6) Can implement single read and write operations successfully.
 7) The diagram below shows the interface:
+
+
 ![image](https://github.com/shikhargovil/AHB-to-APB-Bridge/assets/78219141/939cd9f6-78b1-4684-b744-d67dafca9293)
 
 #### APB Bridge
