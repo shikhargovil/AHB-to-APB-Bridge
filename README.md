@@ -73,14 +73,14 @@ To design and simulate a synthesizable AHB to APB bridge interface using Verilog
 
 ![image](https://github.com/shikhargovil/AHB-to-APB-Bridge/assets/78219141/939cd9f6-78b1-4684-b744-d67dafca9293)
 
-#### APB Bridge
+### APB Bridge
 
-Basic Implementation Tools
-HDL Used : Verilog
-Simulator Tool Used: ModelSIM
-Synthesis Tool Used: Quartus Prime
-Family: Cyclone V
-Device: 5CSXFC6D6F31I7ES
+#### Basic Implementation Tools
+*HDL Used : Verilog
+*Simulator Tool Used: ModelSIM
+*Synthesis Tool Used: Quartus Prime
+*Family: Cyclone V
+*Device: 5CSXFC6D6F31I7ES
 
 ### Design Modules
 #### AHB Slave Interface
