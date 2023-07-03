@@ -54,4 +54,4 @@ If an undefined system is reached, operation of the system will work as normal, 
 
 ![image](https://github.com/shikhargovil/AHB-to-APB-Bridge/assets/78219141/db6e415d-3d88-4ecb-a429-8ad25cf0c82f)
 
-State machine of AHB to APB  interface
+                                           State machine of AHB to APB  interface
