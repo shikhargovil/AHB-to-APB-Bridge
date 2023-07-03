@@ -11,8 +11,6 @@ Three distinct buses are defined within the AMBA specification:
 
 • the Advanced Peripheral Bus (APB)
 
-A test methodology is included with the AMBA specification which provides an infrastructure for modular macrocell test and diagnostic access.
-
 
 #### 1) Advanced High-performance Bus (AHB)
 The AMBA AHB is for high-performance, high clock frequency system modules. The AHB acts as the high-performance system backbone bus. AHB supports the 
