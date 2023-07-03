@@ -62,13 +62,13 @@ If an undefined system is reached, operation of the system will work as normal, 
 ### Objective
 To design and simulate a synthesizable AHB to APB bridge interface using Verilog and run single read and single write tests using AHB Master and APB Slave testbenches. The bridge unit converts system bus transfers into APB transfers and performs the following functions:
 
-Latches the address and holds it valid throughout the transfer.
-Decodes the address and generates a peripheral select, PSELx. Only one select signal can be active during a transfer.
-Drives the data onto the APB for a write transfer.
-Drives the APB data onto the system bus for a read transfer.
-Generates a timing strobe, PENABLE, for the transfer
-Can implement single read and write operations successfully.
-The diagram below shows the interface:
+1) Latches the address and holds it valid throughout the transfer.
+2) Decodes the address and generates a peripheral select, PSELx. Only one select signal can be active during a transfer.
+3) Drives the data onto the APB for a write transfer.
+4) Drives the APB data onto the system bus for a read transfer.
+5) Generates a timing strobe, PENABLE, for the transfer
+6) Can implement single read and write operations successfully.
+7) The diagram below shows the interface:
 
 #### APB Bridge
 
