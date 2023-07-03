@@ -6,8 +6,11 @@ microcontrollers.
 Three distinct buses are defined within the AMBA specification:
 
 • the Advanced High-performance Bus (AHB)
+
 • the Advanced System Bus (ASB)
-• the Advanced Peripheral Bus (APB).
+
+• the Advanced Peripheral Bus (APB)
+
 A test methodology is included with the AMBA specification which provides an infrastructure for modular macrocell test and diagnostic access.
 
 
